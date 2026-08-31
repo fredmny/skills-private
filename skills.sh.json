@@ -8,6 +8,14 @@
       "skills": [
         "designing-ai-workflows"
       ]
+    },
+    {
+      "title": "Second Brain",
+      "description": "Read from and write to Fred's Obsidian vault",
+      "skills": [
+        "second-brain-recall",
+        "second-brain-save"
+      ]
     }
   ]
 }
