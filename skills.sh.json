@@ -14,7 +14,8 @@
       "description": "Read from and write to Fred's Obsidian vault",
       "skills": [
         "second-brain-recall",
-        "second-brain-save"
+        "second-brain-save",
+        "second-brain-setup"
       ]
     }
   ]

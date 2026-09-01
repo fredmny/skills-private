@@ -90,8 +90,10 @@ Four things from it that decide whether the write is right:
   how-to belongs in `resources/` with the rest of the Linux cluster, not in `Instructions/`.
 - **Only five types may be agent-created:** `reference`, `cheatsheet`, `tool`, `article`,
   `thoughts`. Never invent a `type:` value the vault does not already use.
-- **Re-check `unresolved` against 67 after every write** and fix only what you broke. The
-  other 67 are Fred's backlog; 34 are daily-note date navigation that must never be "fixed".
+- **Measure `unresolved total` before the write and re-check it after** — must come back
+  equal. Fix only the delta you broke; do not touch Fred's pre-existing backlog (some of it is
+  daily-note date navigation that must never be "fixed"). Do not rely on a hardcoded count —
+  it drifts as Fred edits his own notes.
 
 ## 4. Report back
 
@@ -109,8 +111,6 @@ doesn't silently vanish from the next session's context.
   / `obsidian move`, and ask first: a rename changes vault structure.
 - **Never `delete ... permanent`.** Trash only.
 - **Never touch git.** The vault is not a git repo; there is nothing there to touch.
-- **Never write to the dead/duplicate folders**: `resurces/`, `BranchinMinds/`,
-  `Branching Minds/`, `Meeting/`, `daí/`, `temp/`.
 - **Never set `ai_*` markers on drafts in `ai-agent/docs/`** — only on real vault notes.
 - **Unattended/scheduled invocation is unsupported.** The whole design rests on stopping to
   ask a human. If nobody can answer, stop.
